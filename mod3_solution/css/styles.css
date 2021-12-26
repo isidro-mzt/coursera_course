@@ -1,0 +1,103 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: #d5a1f0;
+	font-family: arial, sans-serif;
+}
+
+.row{
+  width: 100%;
+}
+
+.container-fluid {
+ position: relative;
+ top:5px;
+ margin: 15px;
+}
+
+.item{
+  position: relative;
+  top: 0;
+  background-color: #999999;
+  margin: 15px;
+  padding: 25px;
+  padding-top: 0;
+  border: 3px solid #000;
+}
+
+.item p{
+  margin-top: 20px;
+  text-align: justify;
+  font-size:100%;
+}
+
+.item-title{
+  margin-top: 0px;
+  /*top:2px;*/
+  right: 0px;
+ }
+
+
+
+
+
+/**** HEADER ****/
+#header-nav {
+	background-color: #bb42f5;
+}
+
+.navbar-brand {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: 80px;
+}
+
+.navbar-brand h1 { /* Food LCC */
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .70;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #976aad;
+}
+#nav-list a {
+  color: black;/*#951C49;*/
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
