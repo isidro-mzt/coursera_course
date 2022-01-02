@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
 	font-size: 16px;
 	color: black;
@@ -9,11 +14,6 @@ body {
   width: 100%;
 }
 
-.container-fluid {
- position: relative;
- top:5px;
- margin: 15px;
-}
 
 .item{
   position: relative;
@@ -48,8 +48,8 @@ body {
 
 .navbar-brand {
 	padding-top: 30px;
-	padding-bottom: 30px;
-	height: 80px;
+	padding-bottom: 40px;
+	height: 30px;
 }
 
 .navbar-brand h1 { /* Food LCC */
@@ -57,7 +57,13 @@ body {
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0;
 	margin-bottom: 0;
-	line-height: .70;
+	line-height: .80;
+}
+
+.encabezado h2{
+  font-weight: bold;
+  margin-top: 0px;
+  height: 90px; 
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -80,18 +86,6 @@ body {
   font-size: 1.8em;
 }
 
-#phone {
-  margin-top: 5px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
