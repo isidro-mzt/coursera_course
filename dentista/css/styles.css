@@ -1,0 +1,884 @@
+/* DECLARACION DE TIPOGRAFIA PLAY BOLD */
+
+@font-face {
+    font-family: 'playbold';
+    src: url('../fonts/play-bold-webfont.woff2') format('woff2'),
+         url('../fonts/play-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* DECLARACION DE TIPOGRAFIA PLAY REGULAR*/
+@font-face {
+    font-family: 'playregular';
+    src: url('../fonts/play-regular-webfont.woff2') format('woff2'),
+         url('../fonts/play-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+     .row-eq-height {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display:         flex;
+     
+}
+
+ html{
+    font-size: 1em;
+}
+
+    
+       
+    
+body{
+    font-family: 'playregular', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    
+    
+} 
+    
+    
+   
+.alineacion-slider {
+ margin-right: 0%;   
+    
+}    
+    
+    
+.margenes-texto-1 {
+    margin-left: 22%; 
+    margin-right: -20%;
+    margin-top: 60px;
+    text-align: justify;
+}
+    
+    
+.margenes-thumbs {
+   -webkit-border-radius: 9%;
+   -moz-border-radius: 9%; 
+   margin: 3px;
+   width: 55px; 
+   height: 55px;
+   
+
+}  
+    
+    
+.margenes-galeria {
+    margin-right: 20%;
+    margin-top: 70px;
+    
+    
+}
+    
+    
+.hacia-adelante-1 {
+   z-index: 100!important; 
+   margin-left: 7%;    
+   margin-top: 4%;    
+}    
+    
+    
+.hacia-adelante-2 {
+   z-index: 100!important; 
+   margin-left: 7%;    
+   margin-top: 1%;    
+}
+    
+.hacia-adelante-3 {
+  z-index: 100!important; 
+  margin-left: 7%;    
+  margin-top: 1%;    
+}     
+    
+.borde-1 {
+    margin-top: -0%;
+    margin-bottom: 2%;
+    margin-left: 22%;
+}    
+    
+.borde-2 {
+    margin-top: 0%;
+    margin-left: 22%;
+    
+}  
+    
+.borde-3 {
+    margin-top: -5%;
+    margin-left: 21%;
+    margin-bottom: 10%; 
+}    
+    
+.borde-4 {
+    margin-top: -6%;
+    margin-left: 22%;
+    text-align: justify;
+    
+}    
+     
+.borde-5 {
+    margin-top: 2%;
+    margin-left: 22%;
+    text-align: justify;
+} 
+  
+    
+.linea-divisoria-1 {
+   border-bottom: 2px solid #cbcbcb;
+   margin-left: 2%;
+   margin-right: -12%;
+   margin-bottom: 0px; 
+}   
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+.radio{ 
+   -moz-border-radius: 7px;  
+   -webkit-border-radius: 7px; 
+    border-radius: 7px;
+}    
+
+    
+
+.condominios{
+    border-color: 6px solid #5a33ff;
+    width: 55%;
+    height: 68%;
+    margin-top: 5%;
+     
+}    
+
+.nuestra-vision{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 13%;
+}    
+
+
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/   
+header {
+  width: 100%;
+  height: 33px;
+  background-color: #ffffff;
+}    
+
+
+    
+.hacia-adelante {
+    
+z-index: 100!important; 
+    
+    
+}    
+    
+    
+#btn-menu {
+    display: none;
+    
+}    
+  
+    
+    
+header label {
+  display: none;
+  width: 48px;
+  height: 48px;
+  padding: 10px; 
+    
+}
+    
+header label:hover {
+    cursor:pointer;
+    background: rgba(0, 177, 255, 0.13);
+    
+}    
+    
+   
+.menu ul {
+   margin: 0px; 
+   list-style: none;
+   padding: 0px; 
+   display: flex;
+   justify-content: center;
+}    
+  
+    
+    
+.menu li a {
+   display: block; 
+   padding: 15px  20px; 
+   color: #ffba00; 
+   text-decoration: none; 
+   
+    
+}    
+    
+.margenes-cabecera {
+  width: 100%;
+  margin-top: 0px;
+}
+
+
+.medidas  {
+  width: 100px;
+  height: 80px;
+}
+
+
+.color-texto {
+   color: #4E94AB;
+   
+}
+
+
+.linea-divisoria {
+   border-top: 2px solid #dbdbdb;
+   border-bottom: -5%;
+   margin-left: 23%;
+   margin-right: 0%;
+}
+
+
+
+/* AQUI EMPIEZA  NAVBAR PARA CEL */
+
+
+
+
+#btn-menu {
+
+  display: none;
+  
+}
+
+header label {
+
+  display: block;
+  width: 63px;
+  height: 60px;
+  padding: 9px; 
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0);
+   
+}
+
+
+
+header label:hover {
+  cursor: pointer;
+  background-color: rgba(0, 206, 255, 0.4);
+  
+
+
+
+}
+
+
+.menu ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+
+}
+
+
+.menu ul li {
+
+   display: block;
+   padding: 20px;
+
+}
+
+
+/* AQUI TERMINA  NAVBAR PARA CEL */
+
+/* AQUI EMPIEZA  NAVBAR PARA PANTALLA GRANDE */
+
+
+
+
+.margen-subitems {
+   margin-left: 8%;     
+}
+
+
+.margen-navbar {
+   margin-left: 5%;
+   margin-bottom: -5%; 
+}
+
+
+
+.boton{
+    width:175px;
+    height: 60px;
+    color: #FFF;
+    background-image: url(../img/botones/boton-inicio.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-weight: 100;
+    text-align: right;
+    padding-right: 11%;
+    padding-top: 20px;
+    cursor: pointer;
+    transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    margin-bottom: -20px;
+    margin-left: 10px; 
+}
+
+.boton a{
+        color: #FFF;
+        text-decoration: none;
+        
+    }
+.boton:hover{
+      background-image: url(../img/botones/boton-inicio-sobre.png);
+      transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;   
+    
+}
+
+
+
+/* AQUI EMPIEZA BOTONES ABAJO */
+.botones-abajo {
+  margin-left: 8%;
+  margin-right: 7%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  color: #ffb100;
+  
+   
+}
+
+.botones-abajo:hover{
+    transition:all 0.3s ease;  
+    -moz-transition:all 0.3s ease; 
+    -webkit-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;   
+    color: #afafaf;
+   background-color: rgba(0, 255, 255, 0.19);
+   -moz-border-radius: 2px;  
+   -webkit-border-radius: 2px; 
+    border-radius: 2px; 
+}
+/* AQUI TERMINA BOTONES ABAJO */
+
+/* AQUI TERMINA NAVBAR PARA PANTALLA GRANDE */
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+ 
+
+ .boton{
+    width:160px;
+    height: 48px;
+    color: #FFF;
+    background-image: url(../img/botones/boton-inicio.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-weight: 100;
+    text-align: right;
+    padding-right: 20%;
+    padding-top: 11px;
+    cursor: pointer;
+    transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    margin-bottom: -4%;
+    margin-left: -5%; 
+}
+
+.boton a{
+        color: #FFF;
+        text-decoration: none;
+ }
+     .boton:hover{
+      background-image: url(../img/botones/boton-inicio-sobre.png);
+      transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;   
+} 
+    
+    
+/* AQUI EMPIEZA BOTONES ABAJO */
+.botones-abajo {
+  margin-left: -8%;
+  margin-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-left: -30%;
+  padding-right: -30%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: #ffb100;
+  
+   
+}
+    
+    
+
+.botones-abajo:hover{
+    transition:all 0.6s ease;  
+    -moz-transition:all 0.6s ease; 
+    -webkit-transition:all 0.6s ease;
+    -o-transition:all 0.6s ease;
+     color: #afafaf;
+     background-color: rgba(0, 255, 255, 0.1);
+    
+}
+
+
+
+
+/* AQUI TERMINA BOTONES ABAJO */    
+    
+    
+    
+    
+.color-head2 {
+   background-color: coral;   
+    
+}    
+     
+    
+.condominios {
+    border-color: 3px solid #5a33ff;
+    width: 80%;
+    height: 75%;
+    margin-top: 27%;
+    margin-left: 11%; 
+}    
+    
+
+.linea-divisoria {
+   border-top: 2px solid #dbdbdb;
+   border-bottom: -5%;
+   margin-left: 23%;
+   margin-right: 0%;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+    
+@media only screen and (min-width: 768px) and (max-width: 991px) {    
+    
+  
+.color-head2 {
+   background-color: coral;   
+    
+}    
+     
+
+    
+
+.nuestra-vision{
+    width: 90%;
+    height: 90v;
+    margin-top: 5%;
+    
+}    
+
+     
+    
+   
+    
+   
+.margenes-texto-1 {
+    margin-left: 7%; 
+    margin-right: -7%;
+    margin-top: 5%;
+    text-align: justify;
+}
+ 
+    
+     
+.alineacion-slider{
+    margin-left: 0%;
+    margin-right:0%; 
+}
+    
+.radio{ 
+   -moz-border-radius: 7px;  
+   -webkit-border-radius: 7px; 
+    border-radius: 7px;
+}    
+    
+
+    
+    
+.condominios {
+    border-color: 5px solid #5a33ff;
+    width: 100%;
+    height: 80%;
+    margin-top: 0%;
+    margin-left: 1%; 
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+}
+    
+@media only screen and (min-width: 576px) and (max-width: 767px) {   
+    
+    
+    
+.color-head2 {
+   background-color: coral;   
+    
+}    
+    
+    
+.condominios{
+    border-color: 4px solid #5a33ff;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}    
+
+.nuestra-vision {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;  
+    
+}    
+
+
+    
+.margenes-texto-1 {
+    margin-left: 7%; 
+    margin-right: 7%;
+    margin-top: 5%;
+    text-align: justify;
+}
+ 
+ 
+    
+    
+.alineacion-slider{
+    margin-left: 0%;
+    margin-right:0%; 
+}
+    
+.radio{ 
+   -moz-border-radius: 19px;  
+   -webkit-border-radius: 19px; 
+    border-radius: 19px;
+}    
+    
+ 
+    
+    
+    
+    
+    
+    
+   
+}
+
+
+@media only screen and (min-width: 80px) and (max-width: 575px) {
+
+body {
+   font-size: 1.2em; 
+    
+} 
+    
+.color-texto {
+   color: #4E94AB; 
+    
+    
+    
+} 
+    
+.margen-arriba {
+    margin-top: 30px;
+}    
+    
+
+.color-texto1 {
+    color: coral;
+    
+    
+}
+    
+    
+   
+ .condominios{
+    border-color: 2px solid #5a33ff;
+    width: 120%;
+    height: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}    
+
+.margenes-texto-1 {
+    margin-left: 22%; 
+    margin-right: 0%;
+    margin-top: 10px;
+    text-align: justify;
+}
+     
+    
+
+ 
+
+    
+    
+    
+#btn-menu:checked ~ .menu{
+margin: 0%; 
+z-index: 1000!important;   
+}    
+    
+    
+
+header label {
+    display: block;
+    
+}
+ 
+.menu {
+  /* OJO: Aqui es donde esta la animacion en version celular */
+  position: absolute;/* Absolute  es para poner en la esquina el icono de la barra en celular */  
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-left: -100%;
+  transition: all  0.5s;
+    
+}    
+
+.menu ul {
+  flex-direction: column;  
+    
+}
+    
+    
+
+    
+.boton-cel-inicio-1 {
+    z-index: 1000!important;
+    width:190px;
+    height: 190px;
+    background-image: url(../img/botones/inicio.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+   
+}
+    
+    
+    
+.boton-cel-inicio-1:hover{
+     width:190px;
+     height: 190px;
+     background-image: url(../img/botones/inicio-sobre.png);
+      transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;   
+   
+}
+    
+ 
+.boton-cel-2 {
+    z-index: 1000!important;
+    width:160px;
+    height: 160px;
+    margin-top: -48%;
+    margin-left: 60%;
+    background-image: url(../img/botones/video.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+   
+}
+    
+  
+    
+
+
+.boton-cel-2:hover{
+    width:140px;
+    height: 140px;
+    margin-top: -46.5%; 
+      background-image: url(../img/botones/video-sobre.png);
+      transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;   
+   
+}    
+  
+    
+    
+.boton-cel-3 {
+    z-index: 1000!important;
+    width:170px;
+    height: 170px;
+    margin-right: 10%;
+    background-image: url(../img/botones/galeria.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+   
+}
+    
+   
+    
+.boton-cel-3:hover{
+    width:150px;
+    height: 150px;
+    margin-left: 6px;
+      background-image: url(../img/botones/galeria-sobre.png);
+      transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;   
+   
+}      
+
+    
+    
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/    
+    
+
+[type="checkbox"]{display: none;}
+
+label{
+   padding-left: 33em;
+   position: relative;
+}     
+
+label:before{
+   content: '';
+   background-repeat: no-repeat;
+   width: 90vh;
+   height: 119vh;
+   position:absolute;
+   left: -50px;
+   top: 60px;
+   transition: all 1s;
+   background-image: url("../img/nuestra-vision-celular.jpg");
+   animation-name: animate;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+   animation-play-state: paused;
+   animation-timing-function: ease-in-out
+}
+
+[type="checkbox"]:checked + label:before{
+    background-repeat: no-repeat;
+    background-image: url("../img/nuestra-vision-celular-borroso.jpg");
+    
+    
+} 
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/    
+    
+.margenes-texto-1 {
+    margin-left: 5%; 
+    margin-right: 5%;
+    margin-top: 750px;
+    
+}
+    
+ 
+    
+.margenes-bottom {
+   margin-bottom: 80px;  
+    
+    
+    
+}    
+    
+.margenes-galeria {
+    margin-right: 15%;
+    margin-top: 120px;
+    
+    
+}     
+ 
+    
+.radio{ 
+   -moz-border-radius: 12px;  
+   -webkit-border-radius: 12px; 
+    border-radius: 12px;
+}   
+    
+    
+    
+}

@@ -1,0 +1,49 @@
+[0205/151007.970:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151008.033:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151008.033:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151008.033:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151008.033:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151008.033:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151008.033:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151008.033:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151008.033:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151021.132:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151021.226:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151021.226:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151021.226:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151021.226:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151021.226:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151021.226:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151021.226:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0205/151021.226:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0206/201500.663:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0207/131035.938:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0207/150825.271:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0207/153025.584:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0213/135059.749:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0213/140407.387:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0219/224626.337:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0219/231539.348:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0220/145013.720:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0220/152532.635:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0220/155318.114:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0220/221107.659:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0221/162609.608:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0222/203300.154:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0306/135558.688:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0306/160052.022:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0306/161845.606:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0312/105804.644:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0312/111029.573:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0312/131521.468:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0312/143216.784:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0317/102622.080:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0317/104949.835:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0317/114536.864:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0317/144453.484:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0317/145842.427:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0317/151221.385:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0317/153728.102:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0317/162704.298:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0317/164335.203:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0322/132511.639:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)

@@ -1,0 +1,163 @@
+/* DECLARACION DE TIPOGRAFIA PLAY BOLD */
+
+@font-face {
+    font-family: 'playbold';
+    src: url('../fonts/play-bold-webfont.woff2') format('woff2'),
+         url('../fonts/play-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* DECLARACION DE TIPOGRAFIA PLAY REGULAR*/
+@font-face {
+    font-family: 'playregular';
+    src: url('../fonts/play-regular-webfont.woff2') format('woff2'),
+         url('../fonts/play-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+     .row-eq-height {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+     
+}
+
+ html{
+    font-size: 1em;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'playregular', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    margin-right: 0%;
+    margin-left: 0%;
+} 
+    
+   
+    
+   
+    
+    
+ 
+ 
+.hacia-adelante-formulario {
+    z-index: 2000!important; 
+    margin-left: -2%;
+    margin-right: -2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: rgb(43, 98, 137);
+    color: #ffffff;
+    padding-bottom: 2%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%; 
+}    
+    
+ 
+.color-texto-1 {
+    color: #a7ff00;
+    
+    
+    
+    
+}    
+    
+.radio{ 
+   -moz-border-radius: 11px;  
+   -webkit-border-radius: 11px; 
+    border-radius: 11px;
+}    
+    
+    
+    
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 80px) and (max-width: 575px) {
+
+.hacia-adelante-formulario {
+    z-index: 2000!important; 
+    margin-left: -5%;
+    margin-right: -5%;
+    margin-top: 10%;
+    margin-bottom: -10%;
+    background-color: rgb(43, 98, 137);
+    color: #ffffff;
+    padding-bottom: 9%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 6%; 
+}    
+    
+ 
+.color-texto-1 {
+    color: #a7ff00;
+    
+}    
+    
+
+
+
+
+
+
+
+}

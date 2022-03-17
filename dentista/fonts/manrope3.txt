@@ -1,0 +1,9 @@
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;523&display=swap" rel="stylesheet">
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;523&display=swap');
+</style>
+
+
+font-family: 'Manrope', sans-serif;
