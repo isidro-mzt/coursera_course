@@ -1,0 +1,166 @@
+/* DECLARACION DE TIPOGRAFIA PLAY BOLD */
+
+@font-face {
+    font-family: 'playbold';
+    src: url('../fonts/play-bold-webfont.woff2') format('woff2'),
+         url('../fonts/play-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* DECLARACION DE TIPOGRAFIA PLAY REGULAR*/
+@font-face {
+    font-family: 'playregular';
+    src: url('../fonts/play-regular-webfont.woff2') format('woff2'),
+         url('../fonts/play-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+     .row-eq-height {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display:         flex;
+     
+}
+
+ html{
+    font-size: 1em;
+    
+}
+
+
+body {
+  align-content: center;  
+  background: #253550;  
+  font-family: 'playregular', sans-serif;  
+}
+
+button {
+   font-family: 'playregular', sans-serif;     
+   font-size: 1.2em;     
+   
+}
+    
+    
+    
+    
+
+
+.imagen1 {
+    width:  500px; 
+    height: 500px;
+    background-image: url(../img/1.jpg);
+    margin: 100px auto;
+    position: relative;
+    margin-left: 30px
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+.imagen2 {
+    background-image: url(../img/2.jpg);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 100%;
+    max-width: 100%;
+    resize: horizontal;
+    
+    
+}
+
+
+.imagen2:before {
+    content: "\2194";
+    color: coral;  
+    font-size: 27px;
+    background: rgba(0,0,0,0.1);
+    height: 100%;
+    line-height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 10;
+}
+
+
+
+textarea {
+    opacity: 0; 
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 50%;
+    transform: scaleY(10);
+    cursor: e-resize;
+    max-width: 100%;
+    
+}
+
+
+.margins {
+   margin-top: -100px; 
+   align-content: center; 
+}
+
+.align-button {
+   margin-top: -100px; 
+   margin-left: 50%;
+   
+}
+
+h1 {
+  color: #cecece; 
+  margin-top: -20px; 
+}
+
+
+.boton{
+    margin-top: -30px;
+    width:175px;
+    height: 60px;
+    color: #ffffff;
+    background-image: url(../img/botones/boton-madera.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-weight: 100;
+    text-align: center;
+    background-color: #1d3c57;
+    cursor: pointer;
+    transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+   
+   
+}
+
+.boton a{
+        color: #FFF;
+        text-decoration: none;
+        
+    }
+.boton:hover{
+      background-image: url(../img/botones/boton-madera-sobre.png);
+      transition:all 0.5s ease;  
+    -moz-transition:all 0.5s ease; 
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;   
+    
+}
+
+
+
+
+
+
