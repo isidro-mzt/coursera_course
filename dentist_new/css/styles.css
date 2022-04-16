@@ -97,10 +97,9 @@ body {
   background-color: #222;
   border-top: 0;
 }
-
 .panel-footer div.row {
   margin-bottom: 35px;
-  margin-right: 5px;
+
 }
 #hours, #address {
   line-height: 2;
@@ -120,6 +119,8 @@ body {
   margin-top: 25px;
 }
 /* END FOOTER */
+
+/* Home Page */
 
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
@@ -145,7 +146,7 @@ body {
 }
 
 #specials-tile {
-  background: url('../images/galeria-tile.png') no-repeat;
+  background: url('../images/16.jpg') no-repeat;
   background-position: center;
 }
 
@@ -160,6 +161,46 @@ body {
   background-color: #000;
   color: #fff;
   opacity: .5;
+}
+
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* Galeria-tile */
+.galeria-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto 15px;
 }
 
 /***************** Large devices only ***********************/
@@ -187,6 +228,7 @@ body {
   background: url('../images/jumbotron_992.jpg') no-repeat;
   height: 558px;
  }
+
  /* End Home Page */
 }
 
@@ -196,6 +238,40 @@ body {
   .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
     height: 432px;
+  }
+
+    .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Cirujano Dentista/Dentist */
+    padding-top: 10px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Dr. Antonio Chavez Nava */
+    font-size: .9em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Logo UANL*/
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #99ceff;
+    color: #951c49;
   }
   /* End Home Page */
 
@@ -252,6 +328,28 @@ body {
   }
 
     #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+    /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #menu-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
   }
