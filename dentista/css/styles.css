@@ -22,7 +22,7 @@
 
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 480px) { 
      .row-eq-height {
       display: -webkit-box;
       display: -webkit-flex;
@@ -274,6 +274,7 @@ header label:hover {
    
 }
 
+}
 
 .linea-divisoria {
    border-top: 2px solid #dbdbdb;
