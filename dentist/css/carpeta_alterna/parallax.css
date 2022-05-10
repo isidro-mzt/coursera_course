@@ -1,0 +1,11 @@
+.parallax-completo {
+    width: 100%;
+    height: 70vh; 
+    margin: 0;
+    padding: 0;
+    background-image: url(themes/nature.JPG)
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}

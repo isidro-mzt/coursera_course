@@ -1,0 +1,152 @@
+
+.parrafo {
+   margin: 12px;     
+   text-align: justify;     
+        
+ 
+}
+
+.align-box {
+    margin: 5%;    
+
+        
+} 
+
+
+.linea-divisoria  {
+    border-bottom: 1px solid red;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+/***************** Large devices only ***********************/
+@media (min-width: 1200px) {
+.parrafo {
+   margin: 12px;     
+   text-align: justify;     
+        
+ 
+}   
+  
+.align-box {
+    margin: 5%;    
+
+}
+    
+.linea-divisoria  {
+    border-bottom: 1px solid red;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}    
+    
+    
+
+}
+
+/***************** Medium devices only *********************/
+@media (min-width: 992px) and (max-width: 1199px) {
+ .parrafo {
+   margin: 12px;     
+   text-align: justify;     
+        
+ 
+}  
+
+    
+.align-box {
+    margin: 5%;    
+
+        
+}
+    
+.linea-divisoria  {
+    border-bottom: 1px solid red;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}    
+    
+    
+
+
+}
+
+/***************** Small devices only *********************/
+@media (min-width: 768px) and (max-width: 991px) {
+ .parrafo {
+   margin: 12px;     
+   text-align: justify;     
+        
+ 
+}
+    
+.align-box {
+    margin: 5%;    
+}  
+    
+.linea-divisoria  {
+    border-bottom: 1px solid red;
+    margin-top: 9%;
+    margin-bottom: 2%;
+}
+    
+    
+    
+
+}
+
+/***************** Extra small devices only ***************/
+@media (max-width: 767px) {
+ .parrafo {
+   margin: 12px;     
+   text-align: justify;     
+        
+ 
+}
+    
+.align-box {
+    margin: 5%;    
+
+        
+}   
+
+.linea-divisoria  {
+    border-bottom: 1px solid red;
+    margin-top: 9%;
+    margin-bottom: 2%;
+} 
+    
+}    
+    
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+.align-box {
+    margin: 0;    
+
+        
+}   
+
+.parrafo {
+   margin: 12px;     
+   text-align: justify;     
+ }
+    
+.parrafo-2 {
+  margin: 5px;      
+        
+}
+    
+    
+    
+    
+.linea-divisoria  {
+    border-bottom: 1px solid red;
+    margin-top: 9%;
+    margin-bottom: 2%;
+}   
+    
+    
+    
+}
